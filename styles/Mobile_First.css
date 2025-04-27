@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/*
+    PALETA DE CORES:
+    Branco
+    Preto
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    background-color: #5f2c82;
+    height: 100vh;
+}
+
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+    width: 250px;
+    
+    transform: translate(-50%, -50%);
+}
+
+#login #login__image{
+    background: #5f2c82 url('../imagens/metal.jpg') center center no-repeat fixed;
+    background-size: cover;
+    height: 200px;
+}
+
+#login #login__form{
+    padding: 10px;
+}
+
+#login__form h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#login__form p{
+    font-size: 0.9em;
+}
+
+.field{
+    background-color: #5f2c82;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.field i{
+    padding: 5px 3px 5px 5px;
+}
+
+.field > input{
+    padding: 1px;
+    width: calc(100% - 50px);
+
+    transform: translateY(-7px);
+}
+
+form > input[type='submit']{
+    background-color: #49a09d;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form > input[type='submit']:hover{
+    background-color: #2b5f5d;
+    color: white;
+}
+
+form > a{
+    display: block;
+    color: #2b5f5d;
+    font-size: 0.9em;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+form > a:hover{
+    background-color: #2b5f5d;
+    color: white;
+}
+
+form > a > span{
+    display: block;
+    margin-top: 10px;
+}
