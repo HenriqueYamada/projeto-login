@@ -65,7 +65,7 @@ html, body{
 }
 
 .field > input{
-    padding: 1px;
+    padding: 2px;
     width: calc(100% - 50px);
 
     transform: translateY(-7px);
@@ -106,5 +106,5 @@ form > a:hover{
 
 form > a > span{
     display: block;
-    margin-top: 10px;
+    margin-top: 12px;
 }
